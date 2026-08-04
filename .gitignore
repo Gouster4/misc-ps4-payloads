@@ -1,0 +1,11 @@
+.DS_Store
+*.bin
+*.map
+*.elf
+*.self
+*.sprx
+*.prx
+*.dll
+*.pup
+*.o
+*.a

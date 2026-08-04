@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "PS4 Payload SDK",
+            "includePath": [
+                "${PS4SDK}/libPS4/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
