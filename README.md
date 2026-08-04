@@ -18,12 +18,16 @@ drive. (TODO: dump to USB)
 
 It also dumps a decrypted copy of the encrypted sflash0s1 segment.
 
+![Screenshot showing a PS4 notification saying "Flash dumped to /data/sflash0.bin" with a hex editor displaying the context of sflash0.bin overlayed on top.](./readme_assets/sflash-dumper.png)
+
 ## slot-versions
 
 Displays the exact system version contained in both update "slots" of your
 console's flash. Useful if you want to know what exact version you would be
 able to downgrade to using the
 [Firmware Revert Hack](https://consolemods.org/wiki/PS4:Firmware_Revert).
+
+![Screenshot showing a PS4 notification saying "Slot A: 09.008.000 (Active)" and "Slot B: 08.520.000".](./readme_assets/slot-versions.png)
 
 ## License
 

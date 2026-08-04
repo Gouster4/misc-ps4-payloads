@@ -1,0 +1,30 @@
+name: Build Payloads
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Build with PS4 Payload SDK
+        uses: Scene-Collective/ps4-payload-sdk@v1.0.0
+        with:
+          app_path: .
+          build_command: make
+
+      - name: Copy artifacts
+        run: |
+          cp */*.bin .
+          cp */*.map .
+
+      - name: Upload binaries
+        uses: actions/upload-artifact@v7
+        with: 
+          name: misc-ps4-payloads
+          path: |
+            *.bin
+            *.map
