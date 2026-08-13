@@ -11,6 +11,12 @@ Built with the [Scene Collective ps4-payload-sdk](https://github.com/Scene-Colle
 >
 > **You are responsible for your own console.**
 
+## hdcp-disable
+
+Disables HDCP output from your PS4. Useful for running after BD-JB or
+VueAfterFree (where those applications require HDCP enabled to launch) if you
+want to use a capture card.
+
 ## sflash-dumper
 
 Dumps the serial flash / NOR of the console to the /data/ folder on the hard

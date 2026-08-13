@@ -1,3 +1,4 @@
+PAYLOADS += hdcp-disable
 PAYLOADS += sflash-dumper
 PAYLOADS += slot-versions
 
